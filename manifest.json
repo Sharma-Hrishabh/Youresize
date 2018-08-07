@@ -1,0 +1,22 @@
+{
+  "name": "YouResizer",
+  "version": "1.0",
+  "description": "YouResizer!",
+  "manifest_version": 2,
+  "browser_action":
+  {
+    "default_popup":"popup.html"
+
+  },
+  "content_scripts":[
+  {"matches":["https://www.youtube.com/watch*"],
+    "js":["myscript.js"]
+
+
+
+
+}
+
+  ]
+
+}
